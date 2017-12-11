@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=emindappstore
+Name[zh_CN]=应用商店
+Comment=Emind Application Store
+Comment[zh_CN]=一铭应用商店
+Exec=/usr/bin/emindappstore
+Icon=/usr/share/emindappstore/image/store.png
+Terminal=false
+Categories=System;

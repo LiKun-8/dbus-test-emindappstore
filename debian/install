@@ -1,0 +1,5 @@
+app_zh.qm /usr/share/emindappstore/
+ipaddress /usr/share/emindappstore/
+image /usr/share/emindappstore
+misc/emindappstore.desktop /usr/share/applications/
+emindappstore /usr/bin/

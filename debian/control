@@ -1,0 +1,25 @@
+Source: emindappstore
+Section: utils
+Priority: optional
+Maintainer: yinmaochao <yinmaochao@emindsoft.com.cn>
+Build-Depends: debhelper (>= 9),
+                qt5-default,
+                pkg-config,
+                qtbase5-dev,
+#                qttools5-dev,
+                qttools5-dev-tools,
+                cmake,
+                dpkg-dev (>=1.16.0~),
+                qtdeclarative5-dev,
+                packagekit,
+                libpackagekitqt5-dev,
+
+Standards-Version: 1.0.0
+Homepage: http://git.emindsoft.com.cn/emindos/emindappstore
+#Vcs-Git: https://anonscm.debian.org/collab-maint/emindprinter.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/emindprinter.git
+Package: emindappstore
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends},libqt5core5a,qml-module-qtquick-controls,libqt5core5a,qml-module-qtquick-dialogs,packagekit,
+Description: <insert up to 60 chars description>
+     emindappstore

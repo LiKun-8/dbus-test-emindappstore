@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/next.png</file>
+        <file>image/refresh.png</file>
+        <file>image/return.png</file>
+        <file>image/search.png</file>
+<<<<<<< HEAD
+=======
+        <file>image/test.jpg</file>
+<<<<<<< HEAD
+        <file>image/Tux.png</file>
+=======
+>>>>>>> c0a32e2c3f9c9c55436ef1ca89860339c73a58ac
+        <file>image/hide.png</file>
+>>>>>>> 97960a7f12dfaeeeb3ed2e4ddc2ffeb9c4a42fee
+    </qresource>
+</RCC>

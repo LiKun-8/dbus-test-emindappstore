@@ -1,0 +1,330 @@
+/******************** title bar style ************/
+
+QPushButton#backBtn {
+    border-image: url(:/image/return_gray.png);
+}
+QPushButton#nextBtn {
+    border-image: url(:/image/forward_gray.png);
+}
+QPushButton#refreshBtn {
+    border-image: url(:/image/refresh_black.png);
+}
+
+/******************** search page style ************/
+
+QLineEdit#searchBox{
+    background-color:transparent;
+}
+
+QFrame#searchFrm{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #dcdcdc;
+}
+
+QLabel#lbSearch{
+    font:12px;
+}
+QLabel#lbTips{
+    font:16px;
+}
+
+QLabel#lbTips1{
+   font:16px;
+}
+/**/
+QWidget#pageClassWidget,#pageMoreWidget,#pageUpdateWidget,#pageManagerWidget {
+    background-color:rgb(255, 255, 255);
+}
+
+QPushButton#btnHome{
+  background: transparent;
+  color:#313131;
+  font:16px;
+  font-weight: 500;
+}
+QPushButton#btnClass{
+  background: transparent;
+  color:#313131;
+  font:16px;
+  font-weight: 500;
+}
+QPushButton#btnUpdate{
+  background: transparent;
+  color:#313131;
+  font:16px;
+  font-weight: 500;
+}
+QPushButton#btnManager{
+  background: transparent;
+  color:#313131;
+  font:16px;
+  font-weight: 500;
+}
+
+/***********************  Class and More page stylesheet *****************/
+QPushButton#btnStatus {
+    border:1px groove;
+    border-radius:2px;
+    border-color:#c8c8c8;
+    color: #313131;
+    font-weight: 450;
+}
+
+QPushButton#btnName {
+    background: transparent;
+    font-weight: 450;
+    font-size: 14px;
+    color: #313131;
+}
+
+QPushButton#btnImage {
+    background: transparent;
+}
+
+QLabel#labelTxt {
+    background: transparent;
+    text-align: right;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+QLabel#labelTop {
+    border-left-width: 4px;
+    border-style: solid;
+    border-left-color: #027aff;
+    font-weight: 500;
+    font-size: 16px;
+    color: #313131;
+}
+
+/*QPushButton#btnStatus:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);
+}*/
+
+QPushButton#btnStatus:hover{
+    background: #027AFF;
+    color:  #FFFFFF
+}
+
+
+QWidget#mainWindow{
+    background-color:rgb(255, 255, 255);
+}
+QWidget#stackWidget{
+    background-color:rgb(255, 255, 255);
+}
+
+/*
+QPushButton[width="80"] {
+   background-color:"red";
+}
+*/
+
+QScrollArea{
+    background:transparent;
+}
+
+QScrollBar::vertical{
+    border:0px solid grey;width:6px;margin-bottom:5px;
+}
+
+QScrollBar::handle:vertical{
+    border-radius:3px;background:#969696;
+}
+
+QScrollBar::handle:vertical:hover{
+    background:#D0D0D0;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical{
+    background:#F2F2F2;
+}
+
+
+/***********************  detail page stylesheet *****************/
+
+QLabel#lbUserCommMark{
+    font:50px;
+}
+
+QLabel#lbAppInfo{
+    font:20px;
+    color:"#313131";
+}
+
+QLabel#lbAppInfoDetail{
+    font:14px;
+    color:"#969696";
+}
+
+QLabel#lbProductName{
+    font:24px;
+    color:"#313131";
+}
+QWidget#detailArea{
+   background-color:rgb(255, 255, 255);
+}
+
+QPushButton#btnState{
+    font:18px;
+    color:"white";
+    min-width:144px;
+    min-height:48px;
+    border-radius:2px;
+    background-color:"#027aff"
+}
+
+
+QPushButton#btnSubmit{
+  font:16px;
+  min-width:5em;
+  min-height:2em;
+  background:transparent;
+  border:1px solid #dcdcdc;
+}
+
+QPushButton#btnSubmit:pressed{
+  font:16px;
+  min-width:5em;
+  min-height:2em;
+  background-color:"#027aff";
+  border:1px solid #dcdcdc;
+}
+
+QPushButton#btnCancel{
+  font:16px;
+  min-width:5em;
+  min-height:2em;
+  background:transparent;
+  border:1px solid #dcdcdc;
+}
+QPushButton#btnCancel:pressed{
+  font:16px;
+  min-width:5em;
+  min-height:2em;
+  background-color:"#027aff";
+  border:1px solid #dcdcdc;
+}
+
+QPushButton#btnMoreInfo{
+  font:16px ;
+  background: transparent;
+  color:"#027aff";
+}
+
+QTextEdit#teCommContent{
+  border:1px solid #dcdcdc;
+}
+
+/***********************  home page stylesheet *****************/
+
+QWidget#homeArea{
+   background-color:rgb(255, 255, 255);
+}
+
+
+
+
+/***************************** search page stylesheet **********************/
+QWidget#searchArea{
+   background-color:rgb(255, 255, 255);
+}
+
+
+
+
+
+/* update & manager page */
+
+QPushButton#headButton ,#hideButton {
+    background: transparent;
+}
+
+QPushButton#nameButton {
+    background: transparent;
+    color: #313131;
+    font-weight: 520;
+    font-size:15px;
+    text-align: left;
+}
+
+QPushButton#funcButton {
+    font-weight: 450;
+    background: transparent;
+    text-align: left;
+    color: #027aff;
+}
+
+QPushButton#updateButton {
+    font-weight: 500;
+    color: #027aff;
+    border: 1px solid #027aff;
+    border-radius: 2px;
+}
+
+QPushButton#uninsButton,#managerButton {
+    font-weight: 500;
+    color: #313131;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+}
+
+QPushButton#onekeyButton {
+    font-weight: 500;
+    border: 0px;
+    color: #ffffff;
+    background: #027aff;
+    border-radius: 2px;
+}
+
+
+QLabel#introLabel {
+    font-weight: 450;
+    color: #969696;
+}
+
+QLabel#segLabel {
+    background: #cccccc;
+}
+
+QLabel#sizeLabelApp,#versionLabelApp {
+    color:#313131;
+}
+
+QLabel#versionLabelMan,#sizeLabelMan {
+    color:#969696;
+    font-size:13px;
+    font-weight: 450;
+}
+
+QLabel#funcLabel {
+    font-weight: 500;
+    color:#313131;
+    font-size:14px;
+}
+
+QLabel#vblueLabel {
+    background:#027aff;
+}
+
+QLabel#taskLabel {
+    color: #313131;
+    font-size:16px;
+    font-weight: 500;
+}
+
+QTextEdit#nfuncEdit {
+    font-weight: 450;
+    border: 0;
+    background-color:transparent;
+    color: #969696;
+}
+
+QTableWidget {
+    background: white
+}
+
+QTableWidget::item {
+    border-top: 1px solid #dcdcdc;
+}
+

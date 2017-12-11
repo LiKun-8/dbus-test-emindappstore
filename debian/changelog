@@ -1,0 +1,186 @@
+emindappstore (1.0.7) unstable; urgency=medium
+
+  * update 1.0.7
+  * update 1.0.7
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 24 Oct 2017 14:58:10 +0800
+
+emindappstore (1.0.6) unstable; urgency=medium
+
+  [ wufeiyun ]
+  * add image warn.png
+
+  [ yinmaochao ]
+  * change config folder
+
+  [ LiKun ]
+  * test刷新
+
+  [ wufeiyun ]
+  * update input method flash bug
+
+  [ yinmaochao ]
+  * move get package installed size to thread
+
+  [ wufeiyun ]
+  * update refresh
+  * update refresh
+
+  [ yinmaochao ]
+  * save insd to configfile
+
+  [ LiKun ]
+  * 解决pageclass刷新不显示
+  * 解决热门推荐显示异常
+
+  [ yinmaochao ]
+  * update
+
+  [ wufeiyun ]
+  * update swindow
+  * update
+
+  [ LiKun ]
+  * 修复pageMoreWidget布局重复添加的问题
+  * 调整更多页面布局
+
+  [ yinmaochao ]
+  * refresh ok
+
+  [ wufeiyun ]
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 24 Oct 2017 14:20:33 +0800
+
+emindappstore (1.0.5) unstable; urgency=medium
+
+  [ wufeiyun ]
+  * update titlebar
+
+  [ LiKun ]
+  * 修改分类标题英文显示不全
+
+  [ yinmaochao ]
+  * no network install bugfix
+  * fix push reupdate&redownload  show ing
+
+  [ wufeiyun ]
+  * add detail page button style ande add homepage screenimg's click to detail page function
+
+  [ yinmaochao ]
+  * change config file location
+  * fix remove software the managerpage bottom is blank
+
+  [ wufeiyun ]
+  * update bugs
+  * update comment.qml btn next and previous
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Wed, 11 Oct 2017 14:53:59 +0800
+
+emindappstore (1.0.4) unstable; urgency=medium
+
+  [ yinmaochao ]
+  * emit not ok
+  * update
+
+  [ wufeiyun ]
+  * update detail btn
+  * update
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 26 Sep 2017 15:28:33 +0800
+
+emindappstore (1.0.3) unstable; urgency=medium
+
+  [ LiKun ]
+  * 修改ipaddress
+  * 修改ipaddress
+
+  [ wufeiyun ]
+  * update ip config file
+
+  [ LiKun ]
+  * 修改ipaddress
+
+  [ wufeiyun ]
+  * udpate search page
+
+  [ yinmaochao ]
+  * add ipaddress
+
+  [ wufeiyun ]
+  * update searchbox
+  * update detail widget
+  * update detail widget2
+
+  [ LiKun ]
+  * 个页面之间信号同步
+
+  [ yinmaochao ]
+  * disable button
+
+  [ wufeiyun ]
+  * update
+
+  [ LiKun ]
+  * 多个页面之间信号同步
+  * 多个页面之间信号同步
+
+  [ wufeiyun ]
+  * deploy 1.0.3
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Tue, 26 Sep 2017 13:45:41 +0800
+
+emindappstore (1.0.2) unstable; urgency=medium
+
+  [ yinmaochao ]
+  * add pic
+  * gbp test
+  * gbp test
+  * gbp test
+  * gbp test
+  * gbp test
+  * gbp test
+  * add a.txt
+  * del a.txt
+  * del makefale for qmake
+
+  [ wufeiyun ]
+  * update comment button
+
+  [ LiKun ]
+  * add ipaddress file
+
+  [ wufeiyun ]
+  * update comment effection
+  * update comment button function
+  * update comment area data update function
+
+  [ LiKun ]
+  * add function getCommentHistory<jsonfuc>
+
+  [ wufeiyun ]
+  * update detail style
+  * update comment submit area
+  * update test
+
+  [ LiKun ]
+  * 热门推荐软件状态无法更新
+
+  [ wufeiyun ]
+  * update Style
+  * update home picture
+
+  [ LiKun ]
+  * 取消分类界面update状态
+  * 同步详情页面软件状态
+
+  [ wufeiyun ]
+  * update detail
+  * update comment
+
+ -- wufeiyun <wufeiyun@emindsoft.com.cn>  Fri, 22 Sep 2017 18:05:34 +0800
+
+emindappstore (1.0.1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- yinmaochao <yinmaochao@emindsoft.com.cn>  Wed, 13 Sep 2017 11:14:46 +0800

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Imgboxer.qml</file>
+        <file>Imgbox.qml</file>
+        <file>Comment.qml</file>
+        <file>app_zh.qm</file>
+        <file>httpData.js</file>
+        <file>PagerButton.qml</file>
+        <file>screenImgData.js</file>
+        <file>parseData.js</file>
+        <file>DelegateItem.qml</file>
+    </qresource>
+</RCC>

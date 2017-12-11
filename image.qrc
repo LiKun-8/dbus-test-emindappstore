@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/forward_black.png</file>
+        <file>image/forward_gray.png</file>
+        <file>image/hide.png</file>
+        <file>image/more.png</file>
+        <file>image/refresh_black.png</file>
+        <file>image/refresh_gray.png</file>
+        <file>image/return_black.png</file>
+        <file>image/return_gray.png</file>
+        <file>image/search.png</file>
+        <file>image/star_0.png</file>
+        <file>image/star_50.png</file>
+        <file>image/star_100.png</file>
+        <file>image/update_16_normal.png</file>
+        <file>image/update_16_hover.png</file>
+        <file>image/manager_16_normal.png</file>
+        <file>image/manager_16_hover.png</file>
+        <file>image/home_16_normal.png</file>
+        <file>image/home_16_hover.png</file>
+        <file>image/class_16_normal.png</file>
+        <file>image/class_16_hover.png</file>
+        <file>image/warn.png</file>
+        <file>image/winIcon.png</file>
+    </qresource>
+</RCC>
