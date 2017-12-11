@@ -10,6 +10,7 @@
 #include <QNetworkAccessManager>
 #include <packagekitqt5/PackageKit/Transaction>
 #include <packagekitqt5/PackageKit/Daemon>
+#include "../dbus-pkdbus/pkdbusInterface.h"
 
 class AppWidget : public QWidget
 {
@@ -51,10 +52,7 @@ signals:
 
 public slots:
     void getImageFinished(QNetworkReply *reply);
-//    void onUpdateOk();
-//    void onUpdateFailure();
-    void onPackageUpdating(PackageKit::Transaction::Info info, const QString &packageID);
-    void onUpdateFinished(PackageKit::Transaction::Exit status, uint runtime);
+    void onUpdateFinished(bool status);
 
 private:
     QHBoxLayout *appLayout;

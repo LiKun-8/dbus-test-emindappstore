@@ -9,6 +9,7 @@
 #include "managerpage/managerwidget.h"
 #include "../updatepage/pkupdates.h"
 #include "updatepage/updatepage.h"
+#include "../dbus-pkdbus/pkdbusInterface.h"
 
 class ManagerPage : public QWidget
 {

@@ -92,6 +92,9 @@ AppWidget::AppWidget(QWidget *parent, QString headUrl, QString nameStr, QString 
     appLayout->addSpacing(112);
     appLayout->addWidget(updateButton);
     setLayout(appLayout);
+
+    ComEmindsoftPkdbusRegistryInterface *myInterface= new ComEmindsoftPkdbusRegistryInterface(QString(),QString(),QDBusConnection::systemBus(),this);
+    QObject::connect(myInterface,SIGNAL(isUpdateSuccess(bool)),this,SLOT(onUpdateFinished(bool)));
 }
 
 void AppWidget::getImage(QString headUrl)
@@ -117,28 +120,18 @@ void AppWidget::getImageFinished(QNetworkReply *reply)
 
 void AppWidget::installUpdate(const QString &packageId)
 {
-    //    qDebug() << __FUNCTION__ << "packageId == " << packageId;
+    qDebug() << __FUNCTION__ << "packageId == " << packageId;
+    com::emindsoft::pkdbus::registry pkDbus("com.emindsoft.pkdbus",
+                                       "/pkdbus/registry",
+                                       QDBusConnection::systemBus());
 
-    PackageKit::Transaction::TransactionFlag flag = PackageKit::Transaction::TransactionFlagOnlyTrusted;
-    m_updatesTrans = PackageKit::Daemon::updatePackage(packageId, flag);
-
-    //    connect(m_updatesTrans.data(), &PackageKit::Transaction::statusChanged, this, &PkUpdates::onStatusChanged);
-    connect(m_updatesTrans.data(), &PackageKit::Transaction::package, this, &AppWidget::onPackageUpdating);
-    connect(m_updatesTrans.data(), &PackageKit::Transaction::finished, this, &AppWidget::onUpdateFinished);
+    pkDbus.installUpdate(packageId);
 
 }
 
-void AppWidget::onPackageUpdating(PackageKit::Transaction::Info info, const QString &packageID)
+void AppWidget::onUpdateFinished(bool status)
 {
-    Q_UNUSED(info);
-    const uint percent = m_updatesTrans->percentage();
-    qDebug() << "Package updating:" << packageID << "percent == " << percent;
-}
-
-void AppWidget::onUpdateFinished(PackageKit::Transaction::Exit status, uint runtime)
-{
-    Q_UNUSED(runtime);
-    if (status == PackageKit::Transaction::ExitSuccess)
+    if (status)
     {
         emit updateOk();
         return;
